@@ -12,7 +12,7 @@ const dateDisplay= `${day} ${month} ${year}`;
 let timeDisplay;
 
 if(hour<12){ 
-    timeDisplay=`${hour}:${minutes}:${seconds} AM}`;
+    timeDisplay=`${hour}:${minutes}:${seconds} AM`;
 document.querySelector('.clock').innerHTML= timeDisplay;
 }
 else{
